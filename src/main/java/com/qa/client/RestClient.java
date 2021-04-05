@@ -12,6 +12,12 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 
 public class RestClient {
+	
+	
+	//RestClient Constructor
+	public RestClient(){
+		System.out.println("This is RestClient Constructor");
+	}
 
 	//Get Method
 	public CloseableHttpResponse get(String url) throws ClientProtocolException, IOException {
