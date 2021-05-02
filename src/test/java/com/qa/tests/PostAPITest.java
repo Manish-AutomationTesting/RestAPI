@@ -20,6 +20,12 @@ import com.qa.data.Users;
 import com.qa.testBase.TestBase;
 
 public class PostAPITest extends TestBase {
+	
+	//Constructor
+	PostAPITest(){
+		System.out.println("TestBase Constructor");
+	}
+	
 	TestBase tetsBase;
 
 	String serviceURL;
